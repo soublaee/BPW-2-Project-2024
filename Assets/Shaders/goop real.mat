@@ -55,6 +55,6 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Base_Color: {r: 0.34509796, g: 0.7450981, b: 0.22745097, a: 0}
-    - _Scroll_Velocity: {r: 0.1, g: 0.2, b: 0, a: 0}
+    - _Base_Color: {r: 0.8498285, g: 1, b: 0.80566037, a: 0}
+    - _Scroll_Velocity: {r: 0.15, g: 0.3, b: 0, a: 0}
   m_BuildTextureStacks: []

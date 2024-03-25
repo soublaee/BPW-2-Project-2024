@@ -35,13 +35,13 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isJumping", true);
         }
 
-        if (Input.GetKeyDown(KeyCode.S) && rb.velocity.y > 0.5f) //als je jump lang drukt
+        if (Input.GetKeyDown(KeyCode.S) && rb.velocity.y > 0.5f) //als je S lang drukt
         {
             rb.velocity = Vector2.down * downwardForce; //dan val je naar beneden
         }
         Flip();
 
-        if (IsGrounded() == false) {
+        if (IsGrounded() == true) {
             animator.SetBool("isJumping", false);
         }
     }
@@ -55,6 +55,10 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()
     {
+        if (rb.velocity.y > 0.1)
+        {
+            return false;
+        }
         return Physics2D.OverlapCircle(groundCheck.position, 0.4f, groundLayer);
     }
 

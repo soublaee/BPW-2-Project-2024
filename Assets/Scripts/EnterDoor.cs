@@ -35,5 +35,4 @@ public class EnterDoor : MonoBehaviour
     {
         inTrigger = false;
     }
-
 }

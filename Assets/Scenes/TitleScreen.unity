@@ -236,7 +236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.626831, y: -1.3781128}
+  m_AnchoredPosition: {x: 2.6269531, y: -1.3781738}
   m_SizeDelta: {x: 63.0818, y: 43.2009}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497594909
@@ -523,7 +523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -688, y: -55}
+  m_AnchoredPosition: {x: -1092, y: -186}
   m_SizeDelta: {x: 550, y: 24.049805}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &751060381
@@ -553,17 +553,16 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 156
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 0
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Assets - Yaren
-
-    Parallax Effect -
-
-'
+  m_Text: "CREDITS\nALL Assets - Me\nMusic - Me, made in Beepbox\n\nParallax Effect
+    Code - Aliph Null on YT\nFonts -VCR MONO, IndubitablyNF\n\nWith big Thanks to
+    Dion and Lex for\nhelping me with the code! \n\nConcept inspired by the show
+    Pantheon\non Amazon Prime Video\n"
 --- !u!222 &751060382
 CanvasRenderer:
   m_ObjectHideFlags: 0
